@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* light mode */
+
+:root {
+    --primary-color: aliceblue;
+    --secondary-color: black;
+
+}
+
+/* dark mode */
+.dark-theme {
+     --primary-color: black;
+     --secondary-color: aliceblue;
+}
+header {
+    background-color: var(--primary-color);
+    height: 100vh;
+    width: 100%;
+    
+}
+header .ban {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+header .banner img {
+    width: 800px;
+    height: 1100px;
+    margin-top:1px;
+    margin-right: -60px;
+    border-top-left-radius:820px;
+    padding-left: 600px
+  
+}
+header .intro{
+   
+    top: 30%;
+    margin-left: 50px;
+}
+header .intro h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(60, 59, 59);
+}
+
+header .intro p {
+    font-size: 18px;
+    color: var(--secondary-color);
+    padding-top: 5px;
+}
+header .intro button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: rgb(14, 232, 97);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+}
+header .icons-wa {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+header .navbar {
+    position:fixed;
+    display: flex;
+    background-color: rgb(60, 59, 59);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 7%;
+    height: 50px;
+    border-bottom-right-radius: 20px;
+
+}
+
+header .navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto ;
+}
+header .navbar li {
+    margin-right: 0;
+}
+header .navbar a{
+    font-size: 20px;
+    font-weight: bold;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 35px;
+    text-decoration: none;
+    margin: 0;
+    cursor: pointer;
+    
+    
+
+}
+header .navbar a:hover {
+   
+    border-bottom: 9px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+   transition: 0.6s ;
+   
+    
+    
+}
+
+header #icon-moon {
+     width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin-right: -150px;
+}
+header .logo h1{
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: -55%;   
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+
+}
+header .logo  h1 img {
+     width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+/* css main  */
+
+main .services-container {
+    text-align: center;
+}
+main .services-title h1{
+    font-size: 30px;
+    margin-top: 30px;
+    padding: 5px;
+
+}
+main .services-title p{
+    font-size: 18px;
+}
+
+main .services-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+main .services-item img {
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    border-radius: 100%;
+}
+main .services-item h2{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+
+}
+
+main #gallery {
+    background-color: var(--primary-color);
+}
+main .gallery-container {
+    text-align: center;
+
+}
+main .gallery-title h1 {
+    font-size: 30px;
+    color: var(--secondary-color);
+    margin-top: 30px;
+    padding-top: 30px;
+}
+main .gallery-title p {
+    font-size: 18px;
+    color: var(--secondary-color);
+    padding-top: 5px
+}
+main .gallery-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+
+}
+main .gallery-list-container img {
+    width: 500px;
+    height: 600px;
+    margin: 30px;
+    border-radius: 50px;
+
+}
+
+footer .footer-container {
+   
+    padding: 20px;
+
+
+}
+footer .footer-container p {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
